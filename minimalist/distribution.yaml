@@ -26,6 +26,12 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/cmake_modules-release.git
       version: 0.4.0-0
+  genlisp:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/genlisp-release.git
+      version: 0.4.16-0
   genmsg:
     release:
       tags:
