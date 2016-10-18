@@ -44,6 +44,12 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/genmsg-release.git
       version: 0.5.8-0
+  gennodejs:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/gennodejs-release.git
+      version: 1.0.3-0
   genpy:
     release:
       tags:
