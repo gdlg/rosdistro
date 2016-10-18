@@ -62,5 +62,11 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/genpy-release.git
       version: 0.6.2-0
+  message_generation:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/message_generation-release.git
+      version: 0.4.0-0
 type: distribution
 version: 2
