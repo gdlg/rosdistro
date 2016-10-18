@@ -32,6 +32,12 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/geneus-release.git
       version: 2.2.5-0
+  genlisp:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/genlisp-release.git
+      version: 0.4.16-0
   genmsg:
     release:
       tags:
