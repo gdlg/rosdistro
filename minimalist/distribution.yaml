@@ -68,5 +68,17 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/message_generation-release.git
       version: 0.4.0-0
+  roscpp_core-release:
+    release:
+      packages:
+      - cpp_common
+      - roscpp_core
+      - roscpp_serialization
+      - roscpp_traits
+      - rostime
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/roscpp_core-release.git
+      version: 0.6.1-0
 type: distribution
 version: 2
