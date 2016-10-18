@@ -44,5 +44,11 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/genmsg-release.git
       version: 0.5.8-0
+  genpy:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/genpy-release.git
+      version: 0.6.2-0
 type: distribution
 version: 2
