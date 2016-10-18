@@ -26,5 +26,11 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/cmake_modules-release.git
       version: 0.4.0-0
+  genmsg:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/genmsg-release.git
+      version: 0.5.8-0
 type: distribution
 version: 2
