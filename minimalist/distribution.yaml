@@ -3,6 +3,8 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 release_platforms:
+  arch:
+  - current
   debian:
   - jessie
   fedora:
@@ -11,8 +13,12 @@ release_platforms:
   ubuntu:
   - wily
   - xenial
-  arch:
-  - current
 repositories:
+  catkin:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/catkin-release.git
+      version: 0.7.4-4
 type: distribution
 version: 2
