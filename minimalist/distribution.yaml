@@ -68,6 +68,12 @@ repositories:
         release: release/minimalist/{package}/{version}
       url: https://github.com/gdlg/message_generation-release.git
       version: 0.4.0-0
+  message_runtime:
+    release:
+      tags:
+        release: release/minimalist/{package}/{version}
+      url: https://github.com/gdlg/message_runtime-release.git
+      version: 0.4.12-0
   roscpp_core-release:
     release:
       packages:
